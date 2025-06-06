@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Commands">
+      <UniqueIdentifier>{446934b6-42bf-470e-8b5d-958aca76eb17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands">
+      <UniqueIdentifier>{1c70d7db-155e-41fd-9866-f3e9d18a8623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Command Factory">
+      <UniqueIdentifier>{06fa733a-0e78-498d-b7ba-dab9e15a16a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\File Factory">
+      <UniqueIdentifier>{141ec149-cbb9-4a3e-8762-72a33f60868f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Files">
+      <UniqueIdentifier>{ddd3b4d9-21bb-44bb-8c1e-2f68b5829b56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\File management">
+      <UniqueIdentifier>{020f96cb-825d-4b73-b6a9-93b7b654f562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Files">
+      <UniqueIdentifier>{90026fd3-1c81-454c-91ea-a26b6b211300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Session management">
+      <UniqueIdentifier>{941da734-7da6-4887-9c86-8205fc4ff21c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{7b65a09f-20e8-4c06-a6ed-b8e366cff439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sessions">
+      <UniqueIdentifier>{952722d6-243b-481e-acc5-d6e5cb17c8ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Files\Headers">
+      <UniqueIdentifier>{953b5302-7db0-4f19-834c-e8a06ec02606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Image">
+      <UniqueIdentifier>{6192de91-f541-40ce-a330-ea4c3d4bed1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image">
+      <UniqueIdentifier>{ba7e3fdb-d126-44c8-98af-943ae79a568f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Commands\Session">
+      <UniqueIdentifier>{3a422f34-f04a-4456-9b9b-d320256d89c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Commands\Image">
+      <UniqueIdentifier>{963652bc-0023-468d-a491-3956b1a6193c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands\Session">
+      <UniqueIdentifier>{27be038e-4304-4e36-985c-1e263df94149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands\Image">
+      <UniqueIdentifier>{990e1486-fd89-4814-8bd7-5b54ca94db9a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommandFactory.hpp">
+      <Filter>Header Files\Command Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.hpp">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="PBM.hpp">
+      <Filter>Header Files\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PGM.hpp">
+      <Filter>Header Files\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PPM.hpp">
+      <Filter>Header Files\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BMP.hpp">
+      <Filter>Header Files\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileFactory.hpp">
+      <Filter>Header Files\File Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Session.hpp">
+      <Filter>Header Files\Sessions</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.hpp">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="BMP_Header.hpp">
+      <Filter>Header Files\Files\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PNM_Header.hpp">
+      <Filter>Header Files\Files\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.hpp">
+      <Filter>Header Files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.hpp">
+      <Filter>Header Files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.hpp">
+      <Filter>Header Files\Command Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadCommand.hpp">
+      <Filter>Header Files\Commands\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="GrayscaleCommand.hpp">
+      <Filter>Header Files\Commands\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="MonochromeCommand.hpp">
+      <Filter>Header Files\Commands\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveCommand.hpp">
+      <Filter>Header Files\Commands\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveasCommand.hpp">
+      <Filter>Header Files\Commands\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="AddCommand.hpp">
+      <Filter>Header Files\Commands\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="ListSessionCommand.hpp">
+      <Filter>Header Files\Commands\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitCommand.hpp">
+      <Filter>Header Files\Commands\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="FlipLeftCommand.hpp">
+      <Filter>Header Files\Commands\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="RotateLeftCommand.hpp">
+      <Filter>Header Files\Commands\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="UndoCommand.hpp">
+      <Filter>Header Files\Commands\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="RedoCommand.hpp">
+      <Filter>Header Files\Commands\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="Context.hpp">
+      <Filter>Header Files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="File.hpp">
+      <Filter>Header Files\Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileFactory.cpp">
+      <Filter>Source Files\File management</Filter>
+    </ClCompile>
+    <ClCompile Include="PPM.cpp">
+      <Filter>Source Files\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PBM.cpp">
+      <Filter>Source Files\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PGM.cpp">
+      <Filter>Source Files\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BMP.cpp">
+      <Filter>Source Files\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Session.cpp">
+      <Filter>Source Files\Session management</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>Source Files\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Source Files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Source Files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="NegativeCommand.hpp">
+      <Filter>Header Files\Commands\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadCommand.cpp">
+      <Filter>Source Files\Commands\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="GrayscaleCommand.cpp">
+      <Filter>Source Files\Commands\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="MonochromeCommand.cpp">
+      <Filter>Source Files\Commands\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="NegativeCommand.cpp">
+      <Filter>Source Files\Commands\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveCommand.cpp">
+      <Filter>Source Files\Commands\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveasCommand.cpp">
+      <Filter>Source Files\Commands\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="AddCommand.cpp">
+      <Filter>Source Files\Commands\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="ListSessionCommand.cpp">
+      <Filter>Source Files\Commands\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitCommand.cpp">
+      <Filter>Source Files\Commands\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="FlipCommand.cpp">
+      <Filter>Source Files\Commands\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateCommand.cpp">
+      <Filter>Source Files\Commands\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="UndoCommand.cpp">
+      <Filter>Source Files\Commands\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="RedoCommand.cpp">
+      <Filter>Source Files\Commands\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="FlipTopCommand.hpp">
+      <Filter>Header Files\Commands\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateRightCommand.hpp">
+      <Filter>Header Files\Commands\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="PasteCommand.cpp">
+      <Filter>Source Files\Commands\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="PasteCommand.hpp">
+      <Filter>Header Files\Commands\Image</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CommandFactory.imp">
+      <Filter>Header Files\Command Factory</Filter>
+    </None>
+  </ItemGroup>
+</Project>

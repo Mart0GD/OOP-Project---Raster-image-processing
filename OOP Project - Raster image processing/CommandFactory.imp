@@ -1,0 +1,65 @@
+
+
+// singleton instance
+template <typename T1, typename T2>
+CommandFactory<T1, T2>& CommandFactory<T1, T2>::getInstance() {
+	static CommandFactory<T1, T2> instance;
+	return instance;
+}
+
+// register a command
+template <typename T1, typename T2>
+void CommandFactory<T1, T2>::registerHandler(T2* handler) {
+	handlers.push_back(handler);
+}
+
+template <typename T1, typename T2>
+bool CommandFactory<T1, T2>::registerCommands(){
+
+	try {
+		for (T2* handler : handlers)
+			commands.push_back(&handler->getCommand());
+	}
+	catch (const std::exception& e)
+	{
+		std::cout << e.what();
+		commands.clear();
+		return false;
+	}
+
+	return true;
+}
+
+// create a command 
+template <typename T1, typename T2>
+T1* CommandFactory<T1, T2>::getCommand(std::istream& is) {
+
+
+	T2* handler = getHandler(is);
+	if (handler) {
+		try {
+			return &handler->getCommand();
+		}
+		catch (const std::exception& e) {
+			std::cout << e.what();
+			return nullptr;
+		}
+	}
+	else {
+		is.seekg(0, std::ios::beg);
+		return nullptr;
+	}
+}
+
+// search all the registerd creators
+template <typename T1, typename T2>
+T2* CommandFactory<T1, T2>::getHandler(std::istream& is) {
+
+	for (T2* handler : handlers) {
+		if (handler->canHandle(is)) return handler;
+		is.clear(); is.seekg(0, std::ios::beg);
+	}
+
+	return nullptr;
+}
+
