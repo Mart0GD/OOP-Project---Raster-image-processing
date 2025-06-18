@@ -1,0 +1,26 @@
+var class_session =
+[
+    [ "Session", "class_session.html#ad92ef09b872c9227e38a6efdd4d8a837", null ],
+    [ "~Session", "class_session.html#a8753bb9dee966b7d39abc9b7237cd665", null ],
+    [ "Session", "class_session.html#ae7feb48f68be002e288bbab74b63afdb", null ],
+    [ "addCommand", "class_session.html#a247ea0ca011a1a29e4bf0fc79d3ccd8f", null ],
+    [ "addImage", "class_session.html#a82af643003535a0dbc5096a3c0a6515f", null ],
+    [ "clearData", "class_session.html#af8a4cc81d83e9c84ff39523d1f26b5ad", null ],
+    [ "executeCommands", "class_session.html#a500512cafa5eda080fb7d5ff49f410f0", null ],
+    [ "exit", "class_session.html#a041ce5897b52f519ea621c6b77092501", null ],
+    [ "getCurrentCommandIndex", "class_session.html#a7bd3126fa7650059197984277bb86251", null ],
+    [ "getImage", "class_session.html#a46918e016a1a2aeb6acf95c8892045dd", null ],
+    [ "getImages", "class_session.html#a27a2d9bddc8a94582c3de923f4792b3a", null ],
+    [ "hasUnsavedWork", "class_session.html#a82c650108f720adc0388b8274ce47923", null ],
+    [ "manipulate", "class_session.html#a744630cd76f3e3986b9fe95bb5b83a83", null ],
+    [ "operator=", "class_session.html#a9b9df432bb38141e8b3c273a98ebfc44", null ],
+    [ "redoCommand", "class_session.html#a780a7c731fbb9efabcbba900e9e5d805", null ],
+    [ "run", "class_session.html#a373987ee33c3e34612b56eb6f21bee42", null ],
+    [ "start", "class_session.html#a47baf956cead0046fcbac45c572c70d3", null ],
+    [ "undoCommand", "class_session.html#a7282c8a8e1d20b54ef3675a8f0dbb3da", null ],
+    [ "exitFlag", "class_session.html#ac29a5a7960aad28af483a9547524704d", null ],
+    [ "images", "class_session.html#af48f022788b488ee01e66ffb60ee3b3a", null ],
+    [ "redoStack", "class_session.html#a260f7b673971d30fc6bc0b1555c14c17", null ],
+    [ "saved", "class_session.html#ac92b11651cee582b714871bfaf3046c6", null ],
+    [ "undoStack", "class_session.html#a786fc3a7dfc7d5c8ad3a3cdf3c46ffd5", null ]
+];

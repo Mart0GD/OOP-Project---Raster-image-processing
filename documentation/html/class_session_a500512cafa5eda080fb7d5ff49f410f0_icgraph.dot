@@ -1,0 +1,16 @@
+digraph "Session::executeCommands"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="Session::executeCommands",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Executes all stored commands on the images."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SaveasCommand::execute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_saveas_command.html#a59af322151853d6e79a51ea29550ffd0",tooltip="Executes the command on a session using input stream."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SaveCommand::execute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_save_command.html#a3008b51e7309e4717ce29ce718a770bd",tooltip="Executes the command on a session using input stream."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="ExitCommand::execute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_exit_command.html#a9d97899a965e865fc0d34d523c26000c",tooltip="Executes the command on a session using input stream."];
+}

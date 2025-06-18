@@ -54,8 +54,6 @@ void Matrix::rotate180() {
 Matrix Matrix::pasteMatrix(const Matrix& dest, size_t x, size_t y) const {
 	const int32_t white = 255;
 
-	Matrix srcMatrix(*this);
-
 	// get the biggest dimensions
 	size_t maxWidth = std::max(dest.getWidth(), width + x);
 	size_t maxHeight = std::max(dest.getHeight(), height + y);
@@ -73,7 +71,7 @@ Matrix Matrix::pasteMatrix(const Matrix& dest, size_t x, size_t y) const {
 	// paste the new one
 	for (size_t i = 0; i < height; ++i) {
 		for (size_t j = 0; j < width; ++j) {
-			resized(y + i, x + j) = srcMatrix(i, j);
+			resized(y + i, x + j) = data[i][j];
 		}
 	}
 

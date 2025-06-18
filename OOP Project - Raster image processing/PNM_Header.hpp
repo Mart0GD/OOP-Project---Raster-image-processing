@@ -8,11 +8,12 @@
 
 #include <string>
 
+/// Struct representing a PNM file header
 struct PNM_Header {
-	std::string format{}; // P1-P6
-	int32_t width{};
-	int32_t height{};
-	uint32_t maxValue = 1; // default for pbm
+	std::string format{};		///< Identifier -> P1-P6
+	int32_t width{};			///< the width of the pixel matrix
+	int32_t height{};			///< the height of the pixel matrix
+	uint32_t maxValue = 1;		///< max pixel value (1 by default for pbm)
 };
 
 #endif // !__LOAD_COMMAND_HPP_INCLUDED__

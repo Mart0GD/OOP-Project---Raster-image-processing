@@ -31,8 +31,8 @@ bool BMP::saveImage(const Image& image, const std::string& filename) const {
 	const int32_t bmp_header_size_bytes = 54;
 
 	const Matrix& matrix = image.getMatrix();
-	size_t width = image.getMatrix().getWidth();
-	size_t height = image.getMatrix().getHeight();
+	int32_t width = (int32_t)image.getMatrix().getWidth();
+	int32_t height = (int32_t)image.getMatrix().getHeight();
 
 	header.biWidth = width;
 	header.biHeight = height;

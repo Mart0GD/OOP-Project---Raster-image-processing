@@ -1,0 +1,32 @@
+digraph "Image::paste"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="Image::paste",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Pastes this image onto another at the given position."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="File::clone",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_file.html#a10a570a75e4eb7c7f6547ed41410b3ce",tooltip="Creates a deep copy of the file."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="File::File",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_file.html#a137f02402ec88fdd43a6cb77438dd528",tooltip="Constructs a file with a given filename and matrix data."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="Image::getMatrix",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_image.html#ad4f50b642f69435f20c0bc5e57fe76ec",tooltip="Gets a reference to the image matrix (modifiable)."];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="Image::Image",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_image.html#a22a92797b060639e360ddac5f64fa1ab",tooltip="Constructs an image with a given matrix, file and command index."];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="Image::checkGrey",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_image.html#a0c4cfe48da2596fc9803fe382a4ccd91",tooltip="Checks if the image can be considered grayscale."];
+  Node5 -> Node7 [id="edge6_Node000005_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="Image::checkMono",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_image.html#a6cdb1c7a172f98495a20773876691a6c",tooltip="Checks if the image can be considered monochrome."];
+  Node5 -> Node8 [id="edge7_Node000005_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="Image::resetContext",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_image.html#a55e77e45340676211022665d8b22446b",tooltip="Resets the image's manipulation context."];
+  Node1 -> Node9 [id="edge8_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="Matrix::pasteMatrix",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_matrix.html#a54416dabefe7a9f233ee45fe43e2f93c",tooltip="Pastes another matrix onto this matrix at a specified position."];
+  Node9 -> Node10 [id="edge9_Node000009_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="Matrix::getHeight",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_matrix.html#acb7ff583a131d29224f368b13fd40a5a",tooltip="Returns the height of the matrix."];
+  Node9 -> Node11 [id="edge10_Node000009_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="Matrix::getWidth",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_matrix.html#a23d0bc1229287aa1e89a475e56fdab48",tooltip="Returns the width of the matrix."];
+  Node9 -> Node12 [id="edge11_Node000009_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="Matrix::Matrix",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_matrix.html#a2dba13c45127354c9f75ef576f49269b",tooltip="Default constructor initializing an empty matrix."];
+}

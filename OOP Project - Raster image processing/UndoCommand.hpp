@@ -8,10 +8,16 @@
 
 #include "Command.hpp"
 
+/// Command that undoes the last action inside the editing session
 class UndoCommand : public SessionCommand {
 public:
 	virtual SessionCommand* clone() const override { return new UndoCommand(*this); }
 
+	/// Pops the last command off the main stack inside the session and puts on the redo stack
+	/// 
+	/// @param session Pointer to the current session.
+	/// @param is Not used (included for interface compliance).
+	/// @returns true is the command is successfully undone
 	virtual bool execute(Session* session, std::istream& is) override;
 };
 

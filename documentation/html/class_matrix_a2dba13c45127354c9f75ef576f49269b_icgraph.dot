@@ -1,0 +1,30 @@
+digraph "Matrix::Matrix"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="Matrix::Matrix",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Default constructor initializing an empty matrix."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Matrix::operator+=",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_matrix.html#ac6957f5d0424d1f614e011da72d21a7d",tooltip="Appends a new row of pixels to the matrix."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Matrix::pasteMatrix",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_matrix.html#a54416dabefe7a9f233ee45fe43e2f93c",tooltip="Pastes another matrix onto this matrix at a specified position."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="Image::paste",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_image.html#a7a6695cf233e24f3915142bc5d70fa4f",tooltip="Pastes this image onto another at the given position."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="PasteCommand::execute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_paste_command.html#abfbbc1a44ca1ab87e50bcad0a0f2c2ff",tooltip="Executes the command on a session using input stream."];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="Matrix::rotateLeft",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_matrix.html#a73d0f62a57b897d6d868f6067a8c321d",tooltip="Rotates the matrix 90 degrees to the left."];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="RotateLeftCommand::\lexecute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rotate_left_command.html#a6ab2781e2b34763398ac1e51e8081425",tooltip="Executes the command on the provided image."];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="Matrix::rotateRight",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_matrix.html#ae93dbd33a2118d6c56cc4ffa45a0264e",tooltip="Rotates the matrix 90 degrees to the right."];
+  Node8 -> Node9 [id="edge8_Node000008_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="RotateRightCommand\l::execute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rotate_right_command.html#a60d087ffe32313971df08bcd7438fb3d",tooltip="Executes the command on the provided image."];
+  Node8 -> Node10 [id="edge9_Node000008_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="Matrix::rotate180",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_matrix.html#a092e7a1b77ea6044b1b442549bea5710",tooltip="Rotates the matrix 180 degrees."];
+  Node10 -> Node7 [id="edge10_Node000010_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 -> Node9 [id="edge11_Node000010_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

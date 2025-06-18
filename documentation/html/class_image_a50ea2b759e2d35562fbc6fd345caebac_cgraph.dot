@@ -1,0 +1,18 @@
+digraph "Image::copy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="Image::copy",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Copies the content of another image into this one."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Image::Image",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_image.html#a22a92797b060639e360ddac5f64fa1ab",tooltip="Constructs an image with a given matrix, file and command index."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Image::checkGrey",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_image.html#a0c4cfe48da2596fc9803fe382a4ccd91",tooltip="Checks if the image can be considered grayscale."];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="Image::checkMono",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_image.html#a6cdb1c7a172f98495a20773876691a6c",tooltip="Checks if the image can be considered monochrome."];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="Image::resetContext",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_image.html#a55e77e45340676211022665d8b22446b",tooltip="Resets the image's manipulation context."];
+}

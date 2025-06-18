@@ -1,0 +1,16 @@
+digraph "BMP::saveImage"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="BMP::saveImage",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Saves the image to a BMP file in binary format."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Matrix::getHeight",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_matrix.html#acb7ff583a131d29224f368b13fd40a5a",tooltip="Returns the height of the matrix."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Image::getMatrix",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_image.html#ad4f50b642f69435f20c0bc5e57fe76ec",tooltip="Gets a reference to the image matrix (modifiable)."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="Matrix::getWidth",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_matrix.html#a23d0bc1229287aa1e89a475e56fdab48",tooltip="Returns the width of the matrix."];
+}

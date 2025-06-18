@@ -1,0 +1,50 @@
+digraph "Session::Session"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="Session::Session",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Sessions are not copyable."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Session::Session",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_session.html#ad92ef09b872c9227e38a6efdd4d8a837",tooltip="Constructs a new session."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Session::start",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_session.html#a47baf956cead0046fcbac45c572c70d3",tooltip="Starts a new session."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="LoadCommand::execute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_load_command.html#a5681107c5a99e4be45b3f00425aabd95",tooltip="Executes the command on a session using input stream."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="Session::addImage",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_session.html#a82af643003535a0dbc5096a3c0a6515f",tooltip="Adds an image to the session."];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="Session::getCurrentCommand\lIndex",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_session.html#a7bd3126fa7650059197984277bb86251",tooltip="Getter for the current command index in the undo stack."];
+  Node5 -> Node7 [id="edge6_Node000005_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="Image::getFile",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_image.html#a35e72496d35c7a2e6111d544afb06f61",tooltip="Gets the associated file object."];
+  Node5 -> Node8 [id="edge7_Node000005_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="File::getFilename",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_file.html#ada46c01bf260c830f5c37ecb27baf937",tooltip="Returns the file's name."];
+  Node5 -> Node9 [id="edge8_Node000005_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="Image::setStartCommandIndex",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_image.html#a47c25fe6e5cfc336f9b41b7be3c68d46",tooltip="Sets the index of start command."];
+  Node4 -> Node10 [id="edge9_Node000004_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="clear",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$_helpers_8hpp.html#a0d324b156f5064259ebf749a990a31b0",tooltip="Deletes raw pointers inside a vector and clears it."];
+  Node4 -> Node11 [id="edge10_Node000004_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="FileFactory::getFile",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_file_factory.html#a066c84622e438504a39f864e8593ca10",tooltip="Returns a new File object created by an appropriate FileManager for the given filename."];
+  Node11 -> Node12 [id="edge11_Node000011_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="FileManager::create",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_file_manager.html#a9ae598150695175f4060ca233f76bf2e",tooltip="Creates a file from the input stream and given filename."];
+  Node11 -> Node13 [id="edge12_Node000011_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="FileFactory::getCreator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_file_factory.html#ac9ee702e439322d2874a9e2b97831dea",tooltip="Finds the appropriate FileManager based on the input file stream."];
+  Node4 -> Node14 [id="edge13_Node000004_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="getFilenames",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$_helpers_8hpp.html#a1934aa3bc656fff1fee8109f867f7a75",tooltip="Extracts filenames from a stream line and populates a vector with them."];
+  Node4 -> Node15 [id="edge14_Node000004_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="FileFactory::getInstance",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_file_factory.html#abb61e398fd44b73c86c6551f20ae9c48",tooltip="Returns the singleton instance of the FileFactory."];
+  Node15 -> Node16 [id="edge15_Node000015_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="FileFactory::FileFactory",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_file_factory.html#a73165cdd39db807ca9689a997205af9e",tooltip=" "];
+  Node3 -> Node17 [id="edge16_Node000003_Node000017",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="CommandFactory::getCommand",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_command_factory.html#a96b04fe262f9d29ca2a288f241216fcb",tooltip="Retrieves a command by parsing input from a stream."];
+  Node3 -> Node18 [id="edge17_Node000003_Node000018",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="Session::run",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_session.html#a373987ee33c3e34612b56eb6f21bee42",tooltip="Runs the main session loop waiting for the exit command."];
+  Node18 -> Node19 [id="edge18_Node000018_Node000019",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="Session::addCommand",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_session.html#a247ea0ca011a1a29e4bf0fc79d3ccd8f",tooltip="Adds a command to the session's undo stack."];
+  Node18 -> Node20 [id="edge19_Node000018_Node000020",color="steelblue1",style="solid",tooltip=" "];
+  Node20 [id="Node000020",label="SessionCommand::execute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_session_command.html#a990567cadd2bcc9093177967ee7aefdc",tooltip="Executes the command on a session using input stream."];
+  Node20 -> Node20 [id="edge20_Node000020_Node000020",color="steelblue1",style="solid",tooltip=" "];
+  Node18 -> Node17 [id="edge21_Node000018_Node000017",color="steelblue1",style="solid",tooltip=" "];
+}

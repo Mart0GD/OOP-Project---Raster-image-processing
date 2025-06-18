@@ -117,24 +117,13 @@ bool Session::addCommand(ImageCommand* command) {
 	std::cout << "------ Command added! ------\n";
 	return true;
 }
-std::vector<Image*> Session::executeCommands() {
-	std::vector<Image*> copy;
-	try {
-		for (Image* image : images) {
-			image->resetContext();
-			copy.push_back(new Image(*image));
-		}
-	}
-	catch (const std::exception&) {
-		for (Image* image : copy) delete image;
-	}
+bool Session::executeCommands(std::vector<Image*>& images) {
+	if (undoStack.empty() && redoStack.empty()) return false;
 
-	if (undoStack.empty() && redoStack.empty()) return copy;
-
-	manipulate(copy);
+	manipulate(images);
 
 	saved = true;
-	return copy;
+	return true;
 }
 
 bool Session::undoCommand() {

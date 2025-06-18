@@ -234,7 +234,7 @@
       <Filter>Source Files\Commands\Session</Filter>
     </ClCompile>
     <ClCompile Include="PasteCommand.hpp">
-      <Filter>Header Files\Commands\Image</Filter>
+      <Filter>Header Files\Commands\Session</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

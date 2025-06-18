@@ -10,12 +10,23 @@
 #include <vector>
 #include <string>
 
-// Class responsible for loading images in our program workflow
+/// Command responsible for loading images on session startup
+///
+/// @note a session can be started without any images, they can be added later on with AddCommand
 class LoadCommand : public SessionCommand {
 public:
 	virtual SessionCommand* clone() const override { return new LoadCommand(*this); }
 
-	// creates images using our factory for images 
+	/// Executes the command by loading and adding images to the session.
+	/// 
+	/// Reads the filenames from the input stream, loads the corresponding image files using the
+	/// FileFactory, creates the Images, and adds them to the session one by one.
+	/// Handles and reports all potential failures during this process.
+	/// Clears all dynamically allocated memory on failure
+	/// 
+	/// @param session Pointer to the current session.
+	/// @param is used to read the filenames for image generation
+	/// @returns true if all images were successfully created and added to the editing session
 	virtual bool execute(Session* session, std::istream& is) override;
 };
 

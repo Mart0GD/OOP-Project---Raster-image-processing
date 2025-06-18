@@ -1,0 +1,24 @@
+digraph "Image::getContext"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="Image::getContext",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Gets a const reference to the image context."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FlipLeftCommand::execute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_flip_left_command.html#a8ed295ee83ec6f191c59eca9d154b234",tooltip="Executes the command on the provided image."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FlipTopCommand::execute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_flip_top_command.html#add4c592fbbaced41eb760a2c22511bc1",tooltip="Executes the command on the provided image."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="GrayscaleCommand::execute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_grayscale_command.html#aa933ac3aff6c8d466fcb8ebed4b13f11",tooltip="Executes the command on the provided image."];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="MonochromeCommand::\lexecute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_monochrome_command.html#ac41b090d6393a108f4e2c751f2137902",tooltip="Executes the command on the provided image."];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="NegativeCommand::execute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_negative_command.html#ae19a2eea425e5fad6b891b0224fb4d69",tooltip="Executes the command on the provided image."];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="RotateLeftCommand::\lexecute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rotate_left_command.html#a6ab2781e2b34763398ac1e51e8081425",tooltip="Executes the command on the provided image."];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="RotateRightCommand\l::execute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rotate_right_command.html#a60d087ffe32313971df08bcd7438fb3d",tooltip="Executes the command on the provided image."];
+}

@@ -1,0 +1,48 @@
+digraph "Image::getMatrix"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="Image::getMatrix",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Gets a reference to the image matrix (modifiable)."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FlipLeftCommand::execute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_flip_left_command.html#a8ed295ee83ec6f191c59eca9d154b234",tooltip="Executes the command on the provided image."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="FlipTopCommand::execute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_flip_top_command.html#add4c592fbbaced41eb760a2c22511bc1",tooltip="Executes the command on the provided image."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="RotateLeftCommand::\lexecute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rotate_left_command.html#a6ab2781e2b34763398ac1e51e8081425",tooltip="Executes the command on the provided image."];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="RotateRightCommand\l::execute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rotate_right_command.html#a60d087ffe32313971df08bcd7438fb3d",tooltip="Executes the command on the provided image."];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="Image::paste",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_image.html#a7a6695cf233e24f3915142bc5d70fa4f",tooltip="Pastes this image onto another at the given position."];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="PasteCommand::execute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_paste_command.html#abfbbc1a44ca1ab87e50bcad0a0f2c2ff",tooltip="Executes the command on a session using input stream."];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="BMP::saveImage",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_b_m_p.html#a3a8961fae0cdd600a8acfd8e0cadcde9",tooltip="Saves the image to a BMP file in binary format."];
+  Node1 -> Node9 [id="edge8_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="PBM::saveImage",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_p_b_m.html#ac62b93ddd03ce7d59c9ee24c670b05c8",tooltip="Checks the identifier and saves the file in either binary or ASCII format."];
+  Node1 -> Node10 [id="edge9_Node000001_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="PGM::saveImage",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_p_g_m.html#a11f6ee9b3709f18b60e58be953637512",tooltip="Saves the provided image to a file."];
+  Node1 -> Node11 [id="edge10_Node000001_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="PPM::saveImage",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_p_p_m.html#a54466f17721953c9b26e9c303ccf5cf9",tooltip="Saves the provided image to a file."];
+  Node1 -> Node12 [id="edge11_Node000001_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="PBM::saveToASCII",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_p_b_m.html#a816c8d09397e0988c24f8ba1786ef078",tooltip="Saves the image's pixel data in ASCII format."];
+  Node12 -> Node9 [id="edge12_Node000012_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node13 [id="edge13_Node000001_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="PGM::saveToASCII",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_p_g_m.html#aebf282f7bfbd5bb1a0e6dd41cd9c2ce9",tooltip="Saves the image's pixel data in ASCII format."];
+  Node13 -> Node10 [id="edge14_Node000013_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node14 [id="edge15_Node000001_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="PPM::saveToASCII",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_p_p_m.html#a64e6750d5da02b403233d2bc03074685",tooltip="Saves the image's pixel data in ASCII format."];
+  Node14 -> Node11 [id="edge16_Node000014_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node15 [id="edge17_Node000001_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="PBM::saveToBinary",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_p_b_m.html#a5899b72d34156ff3ce74fa9c84b02543",tooltip="Saves the image's pixel data in compressed binary format."];
+  Node15 -> Node9 [id="edge18_Node000015_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node16 [id="edge19_Node000001_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="PGM::saveToBinary",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_p_g_m.html#acbdba7d0cd500f251a2dfc6f45b7b7a1",tooltip="Saves the image's pixel data in binary format."];
+  Node16 -> Node10 [id="edge20_Node000016_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node17 [id="edge21_Node000001_Node000017",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="PPM::saveToBinary",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_p_p_m.html#a24273130b3ba4f646ad5c814b7b23707",tooltip="Saves the image's pixel data in binary format."];
+  Node17 -> Node11 [id="edge22_Node000017_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

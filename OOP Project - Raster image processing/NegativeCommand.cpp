@@ -7,4 +7,4 @@ bool NegativeCommand::execute(Image* image) const {
 	return true;
 }
 
-static NegativeCommandHandler negHandler;
+static NegativeCommandHandler negHandlerPlsSave;
