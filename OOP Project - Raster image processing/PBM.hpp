@@ -14,7 +14,7 @@
 
 class Session;
 
-/// Represent a Portable bitmap file
+/// Represent a Portable BitMap
 ///
 /// Supports only black and white images
 ///	- 0 is black
