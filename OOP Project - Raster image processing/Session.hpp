@@ -99,8 +99,8 @@ private:
 	std::vector<ImageCommand*> undoStack;     ///< Stack of executed commands.
 	std::vector<ImageCommand*> redoStack;     ///< Stack of undone commands.
 
-	bool exitFlag; ///< Indicates whether the session should exit.
-	bool saved;    ///< Indicates whether the current state is saved.
+	bool exitFlag;							  ///< Indicates whether the session should exit.
+	bool saved;								  ///< Indicates whether the current state is saved.
 };
 
 #endif // !__SESSION_HPP_INCLUDED__
