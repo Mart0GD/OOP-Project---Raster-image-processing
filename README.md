@@ -28,4 +28,4 @@ sudo apt install doxygen
 doxygen Doxyfile
 ````
 ## Useful for PNM image visualizations
-👉 [**View the Docs**](https://jumpshare.com/viewer/pnm) 👈
+[**Jumpshare**](https://jumpshare.com/viewer/pnm)
