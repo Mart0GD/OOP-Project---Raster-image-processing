@@ -5,7 +5,7 @@ This project is built with care, curiosity, and a bit of coffee ☕. Whether you
 
 ## ✨ What is this?
 
-A humble project with big dreams — documented with ❤️ using [Doxygen](https://www.doxygen.nl/).  
+A humble project with big dreams — documented using [Doxygen](https://www.doxygen.nl/).  
 Everything is structured, explained, and easy to explore.
 
 ## 📖 Documentation
