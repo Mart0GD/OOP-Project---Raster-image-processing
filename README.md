@@ -12,7 +12,7 @@ Everything is structured, explained, and easy to explore.
 
 Dive into the details!  
 Check out the full documentation here:  
-👉 [**View the Docs**](https://yourusername.github.io/my-project/) 👈
+👉 [**View the Docs**](https://mart0gd.github.io/OOP-Project---Raster-image-processing/index.html) 👈
 
 Whether you're a developer, a curious student, or just someone browsing — I hope it helps you.
 
