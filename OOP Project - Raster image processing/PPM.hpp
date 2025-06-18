@@ -15,6 +15,9 @@
 
 class Session;
 
+/// Represent a Portable PixMap
+///
+/// PPM uses 24 bits per pixel: 8 for red, 8 for green, 8 for blue, thus supporting colored images
 class PPM : public File {
 public:
 	PPM(const PNM_Header& header, 

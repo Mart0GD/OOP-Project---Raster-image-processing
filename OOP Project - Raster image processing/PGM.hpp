@@ -14,7 +14,7 @@
 
 class Session;
 
-/// Represent a Portable bitmap file
+/// Represent a Portable GrayMap
 ///
 /// only allows gray values 0 is black and the maxValue is white,
 /// everything in between is a shade of grey
