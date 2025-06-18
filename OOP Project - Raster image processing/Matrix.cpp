@@ -43,7 +43,6 @@ void Matrix::rotateRight() {
 		}
 	}
 
-	std::swap(width, height);
 	std::swap(*this, rotated);
 }
 void Matrix::rotate180() {

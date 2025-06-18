@@ -13,7 +13,6 @@
 #include <ctime>
 #include <sstream>
 #include "PNM_Header.hpp"
-#include "File.hpp"
 
 /// Represents a placeholder name used when no filename is assigned.
 static const char NO_SAVE_NAME[] = "N/a";

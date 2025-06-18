@@ -195,8 +195,8 @@ bool Session::manipulate(std::vector<Image*>& copy)
 	// push images back
 	for (Image* image : images)
 	{
-		if (image->getStartCommandIndex() >= commands.size())
-			image->setStartCommandIndex(commands.size()); // set at the end
+		if (image->getStartCommandIndex() >= undoStack.size())
+			image->setStartCommandIndex(undoStack.size()); // set at the end
 	}
 	return true;
 }

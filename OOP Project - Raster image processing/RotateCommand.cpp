@@ -4,8 +4,8 @@
 
 void rotate(Context& context, int32_t degrees);
 
-void RotateLeftCommand::loadInfo(Context& context) const { rotate(context, -1); }
-void RotateRightCommand::loadInfo(Context& context) const { rotate(context, 1); }
+void RotateLeftCommand::loadInfo(Context& context) const { rotate(context, 1); }
+void RotateRightCommand::loadInfo(Context& context) const { rotate(context, -1); }
 
 bool RotateLeftCommand::execute(Image* image) const {
 	Context& ctx = image->getContext();
