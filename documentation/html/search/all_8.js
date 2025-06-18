@@ -1,11 +1,13 @@
 var searchData=
 [
-  ['handlers_0',['handlers',['../class_command_factory.html#ae9f7b731b60cd258fe987a6ac63537c6',1,'CommandFactory']]],
-  ['hasunsavedwork_1',['hasUnsavedWork',['../class_session.html#a82c650108f720adc0388b8274ce47923',1,'Session']]],
-  ['header_2',['header',['../class_p_b_m.html#a79c8f940a897d8984d4f3758f7258be2',1,'PBM::header'],['../class_p_g_m.html#a3f9e66656c5d09eddee2f3a7028b27d2',1,'PGM::header'],['../class_p_p_m.html#a357900aa4a30164b541642782e167683',1,'PPM::header']]],
-  ['height_3',['height',['../class_matrix.html#a01dae23192ab6ae2f60736ff2c77de88',1,'Matrix::height'],['../struct_p_n_m___header.html#a0e9d13208e26d4ac0fb8d890e438203d',1,'PNM_Header::height']]],
-  ['helpers_2ehpp_4',['Helpers.hpp',['../_helpers_8hpp.html',1,'']]],
-  ['hflip_5',['hFlip',['../class_matrix.html#aa97ca005108a8b725cb0eee09dc7ab00',1,'Matrix']]],
-  ['hflipped_6',['hFlipped',['../struct_context.html#a4067cd7b3acd802438af67b6e5ed4a93',1,'Context']]],
-  ['hierarchy_7',['Class Hierarchy',['../index.html#class_hierarchy',1,'']]]
+  ['ideas_20for_20future_20enhancements_0',['Ideas for Future Enhancements',['../index.html#improvements',1,'']]],
+  ['identities_1',['Image Transformation and Transformation Identities',['../index.html#transformation_logic',1,'']]],
+  ['image_2',['Image',['../class_image.html',1,'Image'],['../class_image.html#a22a92797b060639e360ddac5f64fa1ab',1,'Image::Image(const Matrix &amp;matrix, File *file, size_t commandIndex)'],['../class_image.html#a5a3bc57bd7ba53f9ae55b1963b9ba0a1',1,'Image::Image(const Image &amp;other)'],['../class_image.html#ab3d72c4c60d06ca1c897dd58526a8702',1,'Image::Image(Image &amp;&amp;other) noexcept']]],
+  ['image_20processing_20console_20editor_3',['Raster Image Processing Console Editor',['../index.html',1,'']]],
+  ['image_20transformation_20and_20transformation_20identities_4',['Image Transformation and Transformation Identities',['../index.html#transformation_logic',1,'']]],
+  ['imagecommand_5',['ImageCommand',['../class_image_command.html',1,'ImageCommand'],['../class_image_command.html#a512147ace37dc9bb2c628442015bceee',1,'ImageCommand::ImageCommand()']]],
+  ['images_6',['images',['../class_session.html#af48f022788b488ee01e66ffb60ee3b3a',1,'Session']]],
+  ['instances_7',['Memory Optimization and Shared Command Instances',['../index.html#command_storage',1,'']]],
+  ['introduction_8',['Introduction',['../index.html#intro',1,'']]],
+  ['issues_9',['File Format Specific Issues',['../index.html#file_format_quirks',1,'']]]
 ];

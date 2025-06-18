@@ -99,6 +99,9 @@ $(function(){initNavTree('class_p_p_m.html','','class_p_p_m-members'); });
 </div><!--header-->
 <div class="contents">
 
+<p>Represent a Portable PixMap.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_p_p_m_8hpp_source.html">PPM.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for PPM:</div>
@@ -117,7 +120,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac8bea122328537928b3baa67e6f126ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a deep copy of the file.  <br /></td></tr>
 <tr class="memitem:a9387367f1fd0e29575dd85ab0bd6b96e" id="r_a9387367f1fd0e29575dd85ab0bd6b96e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_image.html">Image</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9387367f1fd0e29575dd85ab0bd6b96e">createImage</a> (size_t index=0) override</td></tr>
 <tr class="memdesc:a9387367f1fd0e29575dd85ab0bd6b96e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks the identifier and saves the file in either binary (P6) or ASCII format (P3)  <br /></td></tr>
-<tr class="memitem:a54466f17721953c9b26e9c303ccf5cf9" id="r_a54466f17721953c9b26e9c303ccf5cf9"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54466f17721953c9b26e9c303ccf5cf9">saveImage</a> (const <a class="el" href="class_image.html">Image</a> &amp;image, const std::string &amp;<a class="el" href="class_file.html#a0cea8d01ab6c2653a95d75fc556e88dc">filename</a>=<a class="el" href="_helpers_8hpp.html#ac7474c81e9740eca38fb97ccbcebb738">NO_SAVE_NAME</a>) const override</td></tr>
+<tr class="memitem:a54466f17721953c9b26e9c303ccf5cf9" id="r_a54466f17721953c9b26e9c303ccf5cf9"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54466f17721953c9b26e9c303ccf5cf9">saveImage</a> (const <a class="el" href="class_image.html">Image</a> &amp;image, const std::string &amp;<a class="el" href="class_file.html#a0cea8d01ab6c2653a95d75fc556e88dc">filename</a>=NO_SAVE_NAME) const override</td></tr>
 <tr class="memdesc:a54466f17721953c9b26e9c303ccf5cf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the provided image to a file.  <br /></td></tr>
 <tr class="memitem:af1bcb769fd90eb21ed2732eecf83c23f" id="r_af1bcb769fd90eb21ed2732eecf83c23f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1bcb769fd90eb21ed2732eecf83c23f">printInfo</a> () const override</td></tr>
 <tr class="memdesc:af1bcb769fd90eb21ed2732eecf83c23f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints file-specific information on the console.  <br /></td></tr>
@@ -148,7 +151,10 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a95e4c31782afafcd6703a1411ae846e7 inherit pro_attribs_class_file" id="r_a95e4c31782afafcd6703a1411ae846e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_matrix.html">Matrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file.html#a95e4c31782afafcd6703a1411ae846e7">matrix</a></td></tr>
 <tr class="memdesc:a95e4c31782afafcd6703a1411ae846e7 inherit pro_attribs_class_file"><td class="mdescLeft">&#160;</td><td class="mdescRight">The image matrix data associated with the file.  <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Represent a Portable PixMap. </p>
+<p><a class="el" href="class_p_p_m.html" title="Represent a Portable PixMap.">PPM</a> uses 24 bits per pixel: 8 for red, 8 for green, 8 for blue, therefore supporting colored images. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6ae4a6e38eeda636e543a3c544e08448" name="a6ae4a6e38eeda636e543a3c544e08448"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6ae4a6e38eeda636e543a3c544e08448">&#9670;&#160;</a></span>PPM()</h2>
 
@@ -299,7 +305,7 @@ Example</h3>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="_helpers_8hpp.html#ac7474c81e9740eca38fb97ccbcebb738">NO_SAVE_NAME</a></span>&#160;) const</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span><span class="paramdefsep"> = </span><span class="paramdefval">NO_SAVE_NAME</span>&#160;) const</td>
         </tr>
       </table>
   </td>

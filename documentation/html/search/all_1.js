@@ -1,10 +1,25 @@
 var searchData=
 [
-  ['addcmd_0',['addCmd',['../_add_command_8cpp.html#a5c7027567cb362094d9b3f2567b68bed',1,'AddCommand.cpp']]],
-  ['addcommand_1',['AddCommand',['../class_add_command.html',1,'']]],
-  ['addcommand_2',['addCommand',['../class_session.html#a247ea0ca011a1a29e4bf0fc79d3ccd8f',1,'Session']]],
-  ['addcommand_2ecpp_3',['AddCommand.cpp',['../_add_command_8cpp.html',1,'']]],
-  ['addcommand_2ehpp_4',['AddCommand.hpp',['../_add_command_8hpp.html',1,'']]],
-  ['addcommandhandler_5',['AddCommandHandler',['../class_add_command_handler.html',1,'']]],
-  ['addimage_6',['addImage',['../class_session.html#a82af643003535a0dbc5096a3c0a6515f',1,'Session']]]
+  ['b_0',['b',['../struct_pixel.html#abc9f592730eddbfcb270a1974a498d78',1,'Pixel']]],
+  ['bfoffbits_1',['bfOffBits',['../struct_b_m_p_header.html#a04f56780114e94a60ddfa8b8a8b6007e',1,'BMPHeader']]],
+  ['bfreserved1_2',['bfReserved1',['../struct_b_m_p_header.html#a6872ef1b02409f636c049ba8ff397a2a',1,'BMPHeader']]],
+  ['bfreserved2_3',['bfReserved2',['../struct_b_m_p_header.html#a64d47d657e7a1b9862b8b128227140db',1,'BMPHeader']]],
+  ['bfsize_4',['bfSize',['../struct_b_m_p_header.html#a27949a01efc7c7b5491156555703c0cd',1,'BMPHeader']]],
+  ['bftype_5',['bfType',['../struct_b_m_p_header.html#a7799028118117d076629951daca6f8cf',1,'BMPHeader']]],
+  ['bibitcount_6',['biBitCount',['../struct_b_m_p_header.html#a1262e50455f0acaefbd63d8d10f81af6',1,'BMPHeader']]],
+  ['biclrimportant_7',['biClrImportant',['../struct_b_m_p_header.html#a6f12603b336fd8a89a24677df98d6d5b',1,'BMPHeader']]],
+  ['biclrused_8',['biClrUsed',['../struct_b_m_p_header.html#a21aec3a8918b49a4df72334b68b34147',1,'BMPHeader']]],
+  ['bicompression_9',['biCompression',['../struct_b_m_p_header.html#aeece4d12fefa9ec8ffcb7f16637b2199',1,'BMPHeader']]],
+  ['biheight_10',['biHeight',['../struct_b_m_p_header.html#adec0f46e5df652088e2862befdac3075',1,'BMPHeader']]],
+  ['biplanes_11',['biPlanes',['../struct_b_m_p_header.html#a6e018117b5f4143265963f06d90f0f98',1,'BMPHeader']]],
+  ['bisize_12',['biSize',['../struct_b_m_p_header.html#a6095d473f9e3e3bc9c9f42e0ffac1fb5',1,'BMPHeader']]],
+  ['bisizeimage_13',['biSizeImage',['../struct_b_m_p_header.html#a82482640c3c83fb03ba2f9ac4b802052',1,'BMPHeader']]],
+  ['biwidth_14',['biWidth',['../struct_b_m_p_header.html#a6a859b58c79bf1e7eca1ea4effd49bb6',1,'BMPHeader']]],
+  ['bixpelspermeter_15',['biXPelsPerMeter',['../struct_b_m_p_header.html#a73312f44575b9400dc950946d01b3c97',1,'BMPHeader']]],
+  ['biypelspermeter_16',['biYPelsPerMeter',['../struct_b_m_p_header.html#a905f0175164388e06344e7f9e707c284',1,'BMPHeader']]],
+  ['bmp_17',['BMP',['../class_b_m_p.html',1,'BMP'],['../class_b_m_p.html#ac248eae8bf4e8405f3eee100ce7c6c13',1,'BMP::BMP(const BMPHeader &amp;bmp_header, const std::string &amp;filename, Matrix &amp;matrix)']]],
+  ['bmp_5fheader_18',['bmp_header',['../class_b_m_p.html#ada030306f989dd679b7992ea4d601f20',1,'BMP']]],
+  ['bmpfilemanager_19',['BMPFileManager',['../class_b_m_p_file_manager.html',1,'']]],
+  ['bmpheader_20',['BMPHeader',['../struct_b_m_p_header.html',1,'']]],
+  ['breakdown_20and_20problem_20solving_20approach_21',['Task Breakdown and Problem-Solving Approach',['../index.html#analysis',1,'']]]
 ];

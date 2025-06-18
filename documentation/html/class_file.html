@@ -110,9 +110,9 @@ Inheritance diagram for File:</div>
   <img src="class_file.png" usemap="#File_map" alt=""/>
   <map id="File_map" name="File_map">
 <area href="class_b_m_p.html" title="Represents a BMP file." alt="BMP" shape="rect" coords="0,56,40,80"/>
-<area href="class_p_b_m.html" title="Represent a Portable bitmap file." alt="PBM" shape="rect" coords="50,56,90,80"/>
-<area href="class_p_g_m.html" title="Represent a Portable bitmap file." alt="PGM" shape="rect" coords="100,56,140,80"/>
-<area href="class_p_p_m.html" alt="PPM" shape="rect" coords="150,56,190,80"/>
+<area href="class_p_b_m.html" title="Represent a Portable BitMap." alt="PBM" shape="rect" coords="50,56,90,80"/>
+<area href="class_p_g_m.html" title="Represent a Portable GrayMap." alt="PGM" shape="rect" coords="100,56,140,80"/>
+<area href="class_p_p_m.html" title="Represent a Portable PixMap." alt="PPM" shape="rect" coords="150,56,190,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -124,7 +124,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a10a570a75e4eb7c7f6547ed41410b3ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a deep copy of the file.  <br /></td></tr>
 <tr class="memitem:aa4ebb1d431f07d7464c8b2dc2524a3a4" id="r_aa4ebb1d431f07d7464c8b2dc2524a3a4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_image.html">Image</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4ebb1d431f07d7464c8b2dc2524a3a4">createImage</a> (size_t commandIndex=0)=0</td></tr>
 <tr class="memdesc:aa4ebb1d431f07d7464c8b2dc2524a3a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an image object linked to this file.  <br /></td></tr>
-<tr class="memitem:acf50f1fa669870073a6754caa684d05d" id="r_acf50f1fa669870073a6754caa684d05d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf50f1fa669870073a6754caa684d05d">saveImage</a> (const <a class="el" href="class_image.html">Image</a> &amp;image, const std::string &amp;<a class="el" href="#a0cea8d01ab6c2653a95d75fc556e88dc">filename</a>=<a class="el" href="_helpers_8hpp.html#ac7474c81e9740eca38fb97ccbcebb738">NO_SAVE_NAME</a>) const =0</td></tr>
+<tr class="memitem:acf50f1fa669870073a6754caa684d05d" id="r_acf50f1fa669870073a6754caa684d05d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf50f1fa669870073a6754caa684d05d">saveImage</a> (const <a class="el" href="class_image.html">Image</a> &amp;image, const std::string &amp;<a class="el" href="#a0cea8d01ab6c2653a95d75fc556e88dc">filename</a>=NO_SAVE_NAME) const =0</td></tr>
 <tr class="memdesc:acf50f1fa669870073a6754caa684d05d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the provided image to a file.  <br /></td></tr>
 <tr class="memitem:a981d8d53121fd8a1a2bc25d28348b713" id="r_a981d8d53121fd8a1a2bc25d28348b713"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a981d8d53121fd8a1a2bc25d28348b713">printInfo</a> () const =0</td></tr>
 <tr class="memdesc:a981d8d53121fd8a1a2bc25d28348b713"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints file-specific information on the console.  <br /></td></tr>
@@ -336,7 +336,7 @@ Example</h3>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="_helpers_8hpp.html#ac7474c81e9740eca38fb97ccbcebb738">NO_SAVE_NAME</a></span>&#160;) const</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span><span class="paramdefsep"> = </span><span class="paramdefval">NO_SAVE_NAME</span>&#160;) const</td>
         </tr>
       </table>
   </td>

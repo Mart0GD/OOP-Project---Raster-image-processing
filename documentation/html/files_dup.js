@@ -1,6 +1,5 @@
 var files_dup =
 [
-    [ "documentaion_pages", "dir_55adff44d8d3bb0ac842dd05eab0266b.html", null ],
     [ "AddCommand.cpp", "_add_command_8cpp.html", "_add_command_8cpp" ],
     [ "AddCommand.hpp", "_add_command_8hpp.html", "_add_command_8hpp" ],
     [ "BMP.cpp", "_b_m_p_8cpp.html", "_b_m_p_8cpp" ],

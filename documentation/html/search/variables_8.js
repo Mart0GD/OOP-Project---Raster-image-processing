@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['handlers_0',['handlers',['../class_command_factory.html#ae9f7b731b60cd258fe987a6ac63537c6',1,'CommandFactory']]],
-  ['header_1',['header',['../class_p_b_m.html#a79c8f940a897d8984d4f3758f7258be2',1,'PBM::header'],['../class_p_g_m.html#a3f9e66656c5d09eddee2f3a7028b27d2',1,'PGM::header'],['../class_p_p_m.html#a357900aa4a30164b541642782e167683',1,'PPM::header']]],
-  ['height_2',['height',['../class_matrix.html#a01dae23192ab6ae2f60736ff2c77de88',1,'Matrix::height'],['../struct_p_n_m___header.html#a0e9d13208e26d4ac0fb8d890e438203d',1,'PNM_Header::height']]],
-  ['hflipped_3',['hFlipped',['../struct_context.html#a4067cd7b3acd802438af67b6e5ed4a93',1,'Context']]]
+  ['managers_0',['managers',['../class_file_factory.html#a3dae592e51b07551bbb34a81f3259407',1,'FileFactory']]],
+  ['matrix_1',['matrix',['../class_file.html#a95e4c31782afafcd6703a1411ae846e7',1,'File::matrix'],['../class_image.html#a8f3b02c0fa916d5422344ec35621cc6e',1,'Image::matrix']]],
+  ['maxvalue_2',['maxValue',['../struct_p_n_m___header.html#af54dfa574236afefe483a4f11e6bb130',1,'PNM_Header']]]
 ];

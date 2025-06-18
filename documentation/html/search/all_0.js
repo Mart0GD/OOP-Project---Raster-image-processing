@@ -1,5 +1,14 @@
 var searchData=
 [
-  ['_5f_0',['_',['../_flip_command_8cpp.html#a6dc2413e2e61d21a8da2a92b01988208',1,'_:&#160;FlipCommand.cpp'],['../_grayscale_command_8cpp.html#a44a61cee10f96276c04e2e2a72dd24b4',1,'_:&#160;GrayscaleCommand.cpp'],['../_monochrome_command_8cpp.html#a379d91acb49527515a8828e48b6cf334',1,'_:&#160;MonochromeCommand.cpp'],['../_p_b_m_8cpp.html#a01280bdfd4a772ca53c9fde0e12a5150',1,'_:&#160;PBM.cpp'],['../_p_g_m_8cpp.html#a6825acac7af48243218c258760f4d662',1,'_:&#160;PGM.cpp'],['../_rotate_command_8cpp.html#acf3576c67cca74603f599ddb2c9334fc',1,'_:&#160;RotateCommand.cpp']]],
-  ['_5f_5f_1',['__',['../_b_m_p_8cpp.html#acc3a761517b487fb14a190f36268310e',1,'__:&#160;BMP.cpp'],['../_flip_command_8cpp.html#a4c2d7cc808064c43ea6b8f14de1154b3',1,'__:&#160;FlipCommand.cpp'],['../_p_b_m_8cpp.html#a1c28e71b83bbfb5bc336bc29b480d463',1,'__:&#160;PBM.cpp'],['../_p_g_m_8cpp.html#a53967295d95f7481005ccfc8fe1787b2',1,'__:&#160;PGM.cpp'],['../_rotate_command_8cpp.html#aa135b5fd5dd09461ad6d236bf215af2f',1,'__:&#160;RotateCommand.cpp']]]
+  ['addcommand_0',['AddCommand',['../class_add_command.html',1,'']]],
+  ['addcommand_1',['addCommand',['../class_session.html#a247ea0ca011a1a29e4bf0fc79d3ccd8f',1,'Session']]],
+  ['addcommandhandler_2',['AddCommandHandler',['../class_add_command_handler.html',1,'']]],
+  ['addimage_3',['addImage',['../class_session.html#a82af643003535a0dbc5096a3c0a6515f',1,'Session']]],
+  ['and_20design_20rationale_4',['Chosen Architecture and Design Rationale',['../index.html#architecture',1,'']]],
+  ['and_20problem_20solving_20approach_5',['Task Breakdown and Problem-Solving Approach',['../index.html#analysis',1,'']]],
+  ['and_20shared_20command_20instances_6',['Memory Optimization and Shared Command Instances',['../index.html#command_storage',1,'']]],
+  ['and_20tooling_7',['Documentation and Tooling',['../index.html#tooling',1,'']]],
+  ['and_20transformation_20identities_8',['Image Transformation and Transformation Identities',['../index.html#transformation_logic',1,'']]],
+  ['approach_9',['Task Breakdown and Problem-Solving Approach',['../index.html#analysis',1,'']]],
+  ['architecture_20and_20design_20rationale_10',['Chosen Architecture and Design Rationale',['../index.html#architecture',1,'']]]
 ];

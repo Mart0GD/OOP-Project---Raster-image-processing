@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['pastecmd_0',['pasteCmd',['../_paste_command_8cpp.html#a4fb960606b7feb03a7e8d44754e1384e',1,'PasteCommand.cpp']]],
-  ['ppm_5fa_1',['ppm_a',['../_p_p_m_8cpp.html#ab368bdcf29ab1046a307d8482e8345c0',1,'PPM.cpp']]],
-  ['ppm_5fb_2',['ppm_b',['../_p_p_m_8cpp.html#af27b277031dc1fe1a66a0fb4cde92123',1,'PPM.cpp']]]
+  ['white_0',['WHITE',['../class_matrix.html#a94470f10fbcc4133c34a1099810ab640',1,'Matrix']]],
+  ['width_1',['width',['../class_matrix.html#acc0c0637ac68cb5850f4dda8818dd856',1,'Matrix::width'],['../struct_p_n_m___header.html#a0d2796d0747947bf6c53847741510732',1,'PNM_Header::width']]]
 ];

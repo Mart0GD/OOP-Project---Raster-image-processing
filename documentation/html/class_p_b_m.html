@@ -99,7 +99,7 @@ $(function(){initNavTree('class_p_b_m.html','','class_p_b_m-members'); });
 </div><!--header-->
 <div class="contents">
 
-<p>Represent a Portable bitmap file.  
+<p>Represent a Portable BitMap.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_p_b_m_8hpp_source.html">PBM.hpp</a>&gt;</code></p>
@@ -120,7 +120,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a39d8c89ca850986b24ddd8acdb6bb776"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a deep copy of the file.  <br /></td></tr>
 <tr class="memitem:af02c31ad7ca2fb3496a92bc4b93a6113" id="r_af02c31ad7ca2fb3496a92bc4b93a6113"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_image.html">Image</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af02c31ad7ca2fb3496a92bc4b93a6113">createImage</a> (size_t index=0) override</td></tr>
 <tr class="memdesc:af02c31ad7ca2fb3496a92bc4b93a6113"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an image object linked to this file.  <br /></td></tr>
-<tr class="memitem:ac62b93ddd03ce7d59c9ee24c670b05c8" id="r_ac62b93ddd03ce7d59c9ee24c670b05c8"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac62b93ddd03ce7d59c9ee24c670b05c8">saveImage</a> (const <a class="el" href="class_image.html">Image</a> &amp;image, const std::string &amp;<a class="el" href="class_file.html#a0cea8d01ab6c2653a95d75fc556e88dc">filename</a>=<a class="el" href="_helpers_8hpp.html#ac7474c81e9740eca38fb97ccbcebb738">NO_SAVE_NAME</a>) const override</td></tr>
+<tr class="memitem:ac62b93ddd03ce7d59c9ee24c670b05c8" id="r_ac62b93ddd03ce7d59c9ee24c670b05c8"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac62b93ddd03ce7d59c9ee24c670b05c8">saveImage</a> (const <a class="el" href="class_image.html">Image</a> &amp;image, const std::string &amp;<a class="el" href="class_file.html#a0cea8d01ab6c2653a95d75fc556e88dc">filename</a>=NO_SAVE_NAME) const override</td></tr>
 <tr class="memdesc:ac62b93ddd03ce7d59c9ee24c670b05c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks the identifier and saves the file in either binary or ASCII format.  <br /></td></tr>
 <tr class="memitem:ab45f743a186a3252c8710942e992d6f1" id="r_ab45f743a186a3252c8710942e992d6f1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab45f743a186a3252c8710942e992d6f1">printInfo</a> () const override</td></tr>
 <tr class="memdesc:ab45f743a186a3252c8710942e992d6f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints file-specific information on the console.  <br /></td></tr>
@@ -152,7 +152,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memdesc:a95e4c31782afafcd6703a1411ae846e7 inherit pro_attribs_class_file"><td class="mdescLeft">&#160;</td><td class="mdescRight">The image matrix data associated with the file.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Represent a Portable bitmap file. </p>
+<div class="textblock"><p>Represent a Portable BitMap. </p>
 <p>Supports only black and white images</p><ul>
 <li>0 is black</li>
 <li>1 is white </li>
@@ -313,7 +313,7 @@ Example</h3>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="_helpers_8hpp.html#ac7474c81e9740eca38fb97ccbcebb738">NO_SAVE_NAME</a></span>&#160;) const</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span><span class="paramdefsep"> = </span><span class="paramdefval">NO_SAVE_NAME</span>&#160;) const</td>
         </tr>
       </table>
   </td>

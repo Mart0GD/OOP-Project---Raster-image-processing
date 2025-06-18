@@ -1,10 +1,8 @@
 var searchData=
 [
-  ['image_0',['Image',['../class_image.html',1,'Image'],['../class_image.html#a22a92797b060639e360ddac5f64fa1ab',1,'Image::Image(const Matrix &amp;matrix, File *file, size_t commandIndex)'],['../class_image.html#a5a3bc57bd7ba53f9ae55b1963b9ba0a1',1,'Image::Image(const Image &amp;other)'],['../class_image.html#ab3d72c4c60d06ca1c897dd58526a8702',1,'Image::Image(Image &amp;&amp;other) noexcept']]],
-  ['image_2ecpp_1',['Image.cpp',['../_image_8cpp.html',1,'']]],
-  ['image_2ehpp_2',['Image.hpp',['../_image_8hpp.html',1,'']]],
-  ['imagecommand_3',['ImageCommand',['../class_image_command.html',1,'ImageCommand'],['../class_image_command.html#a512147ace37dc9bb2c628442015bceee',1,'ImageCommand::ImageCommand()']]],
-  ['images_4',['images',['../class_session.html#af48f022788b488ee01e66ffb60ee3b3a',1,'Session']]],
-  ['input_5fdirectory_5fpath_5',['INPUT_DIRECTORY_PATH',['../_helpers_8hpp.html#a314018e6037025d36a3aaf858ba8f045',1,'Helpers.hpp']]],
-  ['introduction_6',['Introduction',['../index.html#intro_sec',1,'']]]
+  ['listsessioncommand_0',['ListSessionCommand',['../class_list_session_command.html',1,'']]],
+  ['listsessioncommandhandler_1',['ListSessionCommandHandler',['../class_list_session_command_handler.html',1,'']]],
+  ['loadcommand_2',['LoadCommand',['../class_load_command.html',1,'']]],
+  ['loadcommandhandler_3',['LoadCommandHandler',['../class_load_command_handler.html',1,'']]],
+  ['loadinfo_4',['loadInfo',['../class_image_command.html#a8ff32a91453b6065022acf184c1a38aa',1,'ImageCommand::loadInfo()'],['../class_flip_left_command.html#ad5459887d85098705eb29840317f9585',1,'FlipLeftCommand::loadInfo()'],['../class_flip_top_command.html#ac6c87a008499b28e8a856af1993b6667',1,'FlipTopCommand::loadInfo()'],['../class_grayscale_command.html#a293b2267a7da530527d4c84141453089',1,'GrayscaleCommand::loadInfo()'],['../class_monochrome_command.html#aaf193895da98095ee2c22fa9d9882ae4',1,'MonochromeCommand::loadInfo()'],['../class_negative_command.html#a5816b56a5a3be6e3b9ec445e39b9b54e',1,'NegativeCommand::loadInfo()'],['../class_rotate_left_command.html#a604c25ba48350a4398bee0cc8c9e632c',1,'RotateLeftCommand::loadInfo()'],['../class_rotate_right_command.html#aa9ebabffd00ff36e9064f2630588532c',1,'RotateRightCommand::loadInfo()']]]
 ];

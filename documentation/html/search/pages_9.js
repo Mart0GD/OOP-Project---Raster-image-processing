@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['raster_20image_20processing_20project_20fmi_20oop_202025_0',['Raster Image Processing Project - FMI OOP 2025',['../index.html',1,'']]]
+  ['problem_20solving_20approach_0',['Task Breakdown and Problem-Solving Approach',['../index.html#analysis',1,'']]],
+  ['processing_20console_20editor_1',['Raster Image Processing Console Editor',['../index.html',1,'']]]
 ];

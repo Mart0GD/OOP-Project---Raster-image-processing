@@ -1,5 +1,13 @@
 var searchData=
 [
-  ['data_0',['data',['../class_matrix.html#acce7bd8f2b074638fa135db7df994c59',1,'Matrix']]],
-  ['direction_1',['direction',['../struct_context.html#ac9729008f06590b81f97549de843f96b',1,'Context']]]
+  ['editor_0',['Raster Image Processing Console Editor',['../index.html',1,'']]],
+  ['encountered_20during_20development_1',['Challenges Encountered During Development',['../index.html#challenges',1,'']]],
+  ['enhancements_2',['Ideas for Future Enhancements',['../index.html#improvements',1,'']]],
+  ['example_3',['Example',['../class_command_factory.html#autotoc_md0',1,'Example'],['../class_p_p_m.html#autotoc_md1',1,'Example'],['../class_file_factory.html#autotoc_md2',1,'Example'],['../class_image.html#autotoc_md3',1,'Example']]],
+  ['execute_4',['execute',['../class_add_command.html#a60679f4845fb9b1f3442707f7ffc0913',1,'AddCommand::execute()'],['../class_image_command.html#ada446d33652ba721fc5c34ab469bed2a',1,'ImageCommand::execute()'],['../class_session_command.html#a990567cadd2bcc9093177967ee7aefdc',1,'SessionCommand::execute()'],['../class_exit_command.html#a9d97899a965e865fc0d34d523c26000c',1,'ExitCommand::execute()'],['../class_flip_left_command.html#a8ed295ee83ec6f191c59eca9d154b234',1,'FlipLeftCommand::execute()'],['../class_flip_top_command.html#add4c592fbbaced41eb760a2c22511bc1',1,'FlipTopCommand::execute()'],['../class_grayscale_command.html#aa933ac3aff6c8d466fcb8ebed4b13f11',1,'GrayscaleCommand::execute()'],['../class_list_session_command.html#a8bfc57706f38b89b1dbf5a7a3beec941',1,'ListSessionCommand::execute()'],['../class_load_command.html#a5681107c5a99e4be45b3f00425aabd95',1,'LoadCommand::execute()'],['../class_monochrome_command.html#ac41b090d6393a108f4e2c751f2137902',1,'MonochromeCommand::execute()'],['../class_negative_command.html#ae19a2eea425e5fad6b891b0224fb4d69',1,'NegativeCommand::execute()'],['../class_paste_command.html#abfbbc1a44ca1ab87e50bcad0a0f2c2ff',1,'PasteCommand::execute()'],['../class_redo_comand.html#ad4400c8c2c54778331ae026164f06d53',1,'RedoComand::execute()'],['../class_rotate_left_command.html#a6ab2781e2b34763398ac1e51e8081425',1,'RotateLeftCommand::execute()'],['../class_rotate_right_command.html#a60d087ffe32313971df08bcd7438fb3d',1,'RotateRightCommand::execute()'],['../class_saveas_command.html#a59af322151853d6e79a51ea29550ffd0',1,'SaveasCommand::execute()'],['../class_save_command.html#a3008b51e7309e4717ce29ce718a770bd',1,'SaveCommand::execute()'],['../class_undo_command.html#ad713632639f3896b8578ad4d6ca86c59',1,'UndoCommand::execute()']]],
+  ['executecommands_5',['executeCommands',['../class_session.html#a500512cafa5eda080fb7d5ff49f410f0',1,'Session']]],
+  ['exit_6',['exit',['../class_session.html#a041ce5897b52f519ea621c6b77092501',1,'Session']]],
+  ['exitcommand_7',['ExitCommand',['../class_exit_command.html',1,'']]],
+  ['exitcommandhandler_8',['ExitCommandHandler',['../class_exit_command_handler.html',1,'']]],
+  ['exitflag_9',['exitFlag',['../class_session.html#ac29a5a7960aad28af483a9547524704d',1,'Session']]]
 ];

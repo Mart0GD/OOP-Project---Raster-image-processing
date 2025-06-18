@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['listcmd_0',['listCmd',['../_list_session_command_8cpp.html#a6c7cc69459b2b85d2677209d62490de9',1,'ListSessionCommand.cpp']]],
-  ['load_1',['load',['../_load_command_8hpp.html#a21890e7880042b4f7ba26bb72d20a646',1,'LoadCommand.hpp']]],
-  ['loadcmd_2',['loadCmd',['../_load_command_8cpp.html#afb58bca4b6ccada18894de9d638379a3',1,'LoadCommand.cpp']]]
+  ['r_0',['r',['../struct_pixel.html#a47d65d4a410f57c46746ddedd709e177',1,'Pixel']]],
+  ['redostack_1',['redoStack',['../class_session.html#a260f7b673971d30fc6bc0b1555c14c17',1,'Session']]],
+  ['rotations_2',['rotations',['../struct_context.html#a5de6806abe936ec1b08a086e9b1e19b9',1,'Context']]]
 ];

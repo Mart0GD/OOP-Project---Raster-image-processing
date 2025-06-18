@@ -8,6 +8,5 @@ var searchData=
   ['setfilename_5',['setFilename',['../class_file.html#aca5fd3a4699324b88da3f3a6cacbf4cf',1,'File']]],
   ['setstartcommandindex_6',['setStartCommandIndex',['../class_image.html#a47c25fe6e5cfc336f9b41b7be3c68d46',1,'Image']]],
   ['size_7',['size',['../class_matrix.html#aeb6be0338f7e26667962470f4766120b',1,'Matrix']]],
-  ['skipwhitespace_8',['skipWhiteSpace',['../_helpers_8hpp.html#a3e22c14825bacd897498f9ae7034d2a0',1,'Helpers.hpp']]],
-  ['start_9',['start',['../class_session.html#a47baf956cead0046fcbac45c572c70d3',1,'Session']]]
+  ['start_8',['start',['../class_session.html#a47baf956cead0046fcbac45c572c70d3',1,'Session']]]
 ];

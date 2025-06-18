@@ -98,7 +98,7 @@ $(function(){initNavTree('_p_g_m_8hpp_source.html','',''); });
   <div class="headertitle"><div class="title">PGM.hpp</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="_p_g_m_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/*</span></div>
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/*</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">    #### OOP Project - Raster image processing ####</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">            FMI OOP - Informatics, 2025</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">*/</span></div>
@@ -109,8 +109,8 @@ $(function(){initNavTree('_p_g_m_8hpp_source.html','',''); });
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="_file_8hpp.html">File.hpp</a>&quot;</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="_p_n_m___header_8hpp.html">PNM_Header.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;File.hpp&quot;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;PNM_Header.hpp&quot;</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">class </span><a class="code hl_class" href="class_session.html">Session</a>;</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span></div>
@@ -123,7 +123,7 @@ $(function(){initNavTree('_p_g_m_8hpp_source.html','',''); });
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="class_p_g_m.html#abf084cc859a2fd6ee9a0080f74a3651d">   26</a></span>    <span class="keyword">virtual</span> <a class="code hl_function" href="class_file.html#a137f02402ec88fdd43a6cb77438dd528">File</a>* <a class="code hl_function" href="class_p_g_m.html#abf084cc859a2fd6ee9a0080f74a3651d">clone</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code hl_function" href="class_p_g_m.html#a35ecd17f12608b90332648bc28d17a32">PGM</a>(*<span class="keyword">this</span>); }</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span></div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keyword">virtual</span> <a class="code hl_class" href="class_image.html">Image</a>* <a class="code hl_function" href="class_p_g_m.html#ace9d0954bfcdd76c9f1d7ea576f8fb15">createImage</a>(<span class="keywordtype">size_t</span> index = 0) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="class_p_g_m.html#a11f6ee9b3709f18b60e58be953637512">saveImage</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_image.html">Image</a>&amp; image, <span class="keyword">const</span> std::string&amp; <a class="code hl_variable" href="class_file.html#a0cea8d01ab6c2653a95d75fc556e88dc">filename</a> = <a class="code hl_variable" href="_helpers_8hpp.html#ac7474c81e9740eca38fb97ccbcebb738">NO_SAVE_NAME</a>) <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="class_p_g_m.html#a11f6ee9b3709f18b60e58be953637512">saveImage</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_image.html">Image</a>&amp; image, <span class="keyword">const</span> std::string&amp; <a class="code hl_variable" href="class_file.html#a0cea8d01ab6c2653a95d75fc556e88dc">filename</a> = NO_SAVE_NAME) <span class="keyword">const override</span>;</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_p_g_m.html#a8693b0bf9f53b069a1e25d629c889c75">printInfo</a>() <span class="keyword">const override</span>;</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">private</span>:</div>
@@ -156,9 +156,6 @@ $(function(){initNavTree('_p_g_m_8hpp_source.html','',''); });
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="preprocessor">#endif </span><span class="comment">// !__IMAGE_HPP_INCLUDED__</span></div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
-<div class="ttc" id="a_file_8hpp_html"><div class="ttname"><a href="_file_8hpp.html">File.hpp</a></div></div>
-<div class="ttc" id="a_helpers_8hpp_html_ac7474c81e9740eca38fb97ccbcebb738"><div class="ttname"><a href="_helpers_8hpp.html#ac7474c81e9740eca38fb97ccbcebb738">NO_SAVE_NAME</a></div><div class="ttdeci">static const char NO_SAVE_NAME[]</div><div class="ttdoc">Represents a placeholder name used when no filename is assigned.</div><div class="ttdef"><b>Definition</b> Helpers.hpp:19</div></div>
-<div class="ttc" id="a_p_n_m___header_8hpp_html"><div class="ttname"><a href="_p_n_m___header_8hpp.html">PNM_Header.hpp</a></div></div>
 <div class="ttc" id="aclass_file_html"><div class="ttname"><a href="class_file.html">File</a></div><div class="ttdoc">Abstract base class representing a raster image file.</div><div class="ttdef"><b>Definition</b> File.hpp:20</div></div>
 <div class="ttc" id="aclass_file_html_a0cea8d01ab6c2653a95d75fc556e88dc"><div class="ttname"><a href="class_file.html#a0cea8d01ab6c2653a95d75fc556e88dc">File::filename</a></div><div class="ttdeci">std::string filename</div><div class="ttdoc">The name of the file.</div><div class="ttdef"><b>Definition</b> File.hpp:59</div></div>
 <div class="ttc" id="aclass_file_html_a137f02402ec88fdd43a6cb77438dd528"><div class="ttname"><a href="class_file.html#a137f02402ec88fdd43a6cb77438dd528">File::File</a></div><div class="ttdeci">File(const std::string &amp;filename, const Matrix &amp;matrix)</div><div class="ttdoc">Constructs a file with a given filename and matrix data.</div><div class="ttdef"><b>Definition</b> File.cpp:5</div></div>
@@ -188,7 +185,7 @@ $(function(){initNavTree('_p_g_m_8hpp_source.html','',''); });
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="_p_g_m_8hpp.html">PGM.hpp</a></li>
+    <li class="navelem"><b>PGM.hpp</b></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>

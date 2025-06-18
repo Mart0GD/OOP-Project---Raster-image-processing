@@ -1,10 +1,9 @@
 var searchData=
 [
-  ['negative_0',['negative',['../struct_context.html#ae9c1acb546d5f13c6cff106a27c4d2a2',1,'Context::negative'],['../class_image.html#a86bcc8dc8183e21f0aab8ef2c7af4b88',1,'Image::negative()']]],
-  ['negativecommand_1',['NegativeCommand',['../class_negative_command.html',1,'']]],
-  ['negativecommand_2ecpp_2',['NegativeCommand.cpp',['../_negative_command_8cpp.html',1,'']]],
-  ['negativecommand_2ehpp_3',['NegativeCommand.hpp',['../_negative_command_8hpp.html',1,'']]],
-  ['negativecommandhandler_4',['NegativeCommandHandler',['../class_negative_command_handler.html',1,'']]],
-  ['neghandlerplssave_5',['negHandlerPlsSave',['../_negative_command_8cpp.html#acec559d188131fd88e4dd2f4b9fb665a',1,'NegativeCommand.cpp']]],
-  ['no_5fsave_5fname_6',['NO_SAVE_NAME',['../_helpers_8hpp.html#ac7474c81e9740eca38fb97ccbcebb738',1,'Helpers.hpp']]]
+  ['of_20core_20classes_0',['Overview of Core Classes',['../index.html#classes',1,'']]],
+  ['operator_28_29_1',['operator()',['../class_matrix.html#a0c910dab0fea7bc74ec790c37857381a',1,'Matrix::operator()(size_t i1, size_t i2) const'],['../class_matrix.html#a7f2c3686e503c4a3b3dda90be26d4022',1,'Matrix::operator()(size_t i1, size_t i2)']]],
+  ['operator_2b_3d_2',['operator+=',['../class_matrix.html#ac6957f5d0424d1f614e011da72d21a7d',1,'Matrix']]],
+  ['operator_3d_3',['operator=',['../class_command_factory.html#a867dbb5ae9b3169969050c2c5c358680',1,'CommandFactory::operator=()'],['../class_file_factory.html#ae9a5d44c6db2bd87757bf6631732060d',1,'FileFactory::operator=()'],['../class_image.html#a3037a583d17594b1835d9b6b8d09875c',1,'Image::operator=(const Image &amp;other)'],['../class_image.html#a3615c0b5e441172283352b63489c6798',1,'Image::operator=(Image &amp;&amp;other) noexcept'],['../class_session.html#a9b9df432bb38141e8b3c273a98ebfc44',1,'Session::operator=()']]],
+  ['optimization_20and_20shared_20command_20instances_4',['Memory Optimization and Shared Command Instances',['../index.html#command_storage',1,'']]],
+  ['overview_20of_20core_20classes_5',['Overview of Core Classes',['../index.html#classes',1,'']]]
 ];

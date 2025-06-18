@@ -25,7 +25,7 @@
 var NAVTREE =
 [
   [ "Raster image processing", "index.html", [
-    [ "main page", "index.html", "index" ],
+    [ "Raster Image Processing Console Editor", "index.html", "index" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -35,26 +35,14 @@ var NAVTREE =
         [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", null ]
       ] ]
-    ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ],
-        [ "Variables", "globals_vars.html", null ],
-        [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", null ],
-        [ "Macros", "globals_defs.html", null ]
-      ] ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"_add_command_8cpp.html",
-"class_image.html#a6cdb1c7a172f98495a20773876691a6c",
-"struct_b_m_p_header.html#a6a859b58c79bf1e7eca1ea4effd49bb6"
+"annotated.html",
+"class_saveas_command.html#a59af322151853d6e79a51ea29550ffd0"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

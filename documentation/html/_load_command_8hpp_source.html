@@ -98,7 +98,7 @@ $(function(){initNavTree('_load_command_8hpp_source.html','',''); });
   <div class="headertitle"><div class="title">LoadCommand.hpp</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="_load_command_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/*</span></div>
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/*</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">    #### OOP Project - Raster image processing ####</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">            FMI OOP - Informatics, 2025</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">*/</span></div>
@@ -106,7 +106,7 @@ $(function(){initNavTree('_load_command_8hpp_source.html','',''); });
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#ifndef __LOAD_COMMAND_HPP_INCLUDED__</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#define __LOAD_COMMAND_HPP_INCLUDED__</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;<a class="code" href="_command_8hpp.html">Command.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;Command.hpp&quot;</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span></div>
@@ -119,7 +119,7 @@ $(function(){initNavTree('_load_command_8hpp_source.html','',''); });
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>};</div>
 </div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="_load_command_8hpp.html#a21890e7880042b4f7ba26bb72d20a646">   33</a></span><span class="keyword">static</span> <a class="code hl_class" href="class_load_command.html">LoadCommand</a> <a class="code hl_variable" href="_load_command_8hpp.html#a21890e7880042b4f7ba26bb72d20a646">load</a>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">static</span> <a class="code hl_class" href="class_load_command.html">LoadCommand</a> load;</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="comment">// Load command creator --&gt; reads the filenames and passes them to the ctor</span></div>
 <div class="foldopen" id="foldopen00036" data-start="{" data-end="};">
@@ -129,16 +129,14 @@ $(function(){initNavTree('_load_command_8hpp_source.html','',''); });
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="class_load_command_handler.html#aafc00b55ea4fb3981bc4940e3727b2f4">   39</a></span>    <span class="keyword">virtual</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="class_load_command_handler.html#aafc00b55ea4fb3981bc4940e3727b2f4">getType</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> <span class="stringliteral">&quot;load&quot;</span>; }</div>
 <div class="foldopen" id="foldopen00040" data-start="{" data-end="}">
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="class_load_command_handler.html#a19ccd3dc492b189a74beb03a543bb491">   40</a></span>    <span class="keyword">virtual</span> <a class="code hl_class" href="class_session_command.html">SessionCommand</a>&amp; <a class="code hl_function" href="class_load_command_handler.html#a19ccd3dc492b189a74beb03a543bb491">getCommand</a>()<span class="keyword"> const override </span>{</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keyword">static</span> <a class="code hl_class" href="class_load_command.html">LoadCommand</a> <a class="code hl_variable" href="_load_command_8hpp.html#a21890e7880042b4f7ba26bb72d20a646">load</a>;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="_load_command_8hpp.html#a21890e7880042b4f7ba26bb72d20a646">load</a>;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keyword">static</span> <a class="code hl_class" href="class_load_command.html">LoadCommand</a> load;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keywordflow">return</span> load;</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    }</div>
 </div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>};</div>
 </div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#endif </span><span class="comment">// !__LOAD_COMMAND_HPP_INCLUDED__</span></div>
-<div class="ttc" id="a_command_8hpp_html"><div class="ttname"><a href="_command_8hpp.html">Command.hpp</a></div></div>
-<div class="ttc" id="a_load_command_8hpp_html_a21890e7880042b4f7ba26bb72d20a646"><div class="ttname"><a href="_load_command_8hpp.html#a21890e7880042b4f7ba26bb72d20a646">load</a></div><div class="ttdeci">static LoadCommand load</div><div class="ttdef"><b>Definition</b> LoadCommand.hpp:33</div></div>
 <div class="ttc" id="aclass_command_handler_html_a31689d5accfad142dfa6a0887a931086"><div class="ttname"><a href="class_command_handler.html#a31689d5accfad142dfa6a0887a931086">CommandHandler&lt; SessionCommand &gt;::CommandHandler</a></div><div class="ttdeci">CommandHandler()</div><div class="ttdef"><b>Definition</b> Command.hpp:96</div></div>
 <div class="ttc" id="aclass_load_command_handler_html"><div class="ttname"><a href="class_load_command_handler.html">LoadCommandHandler</a></div><div class="ttdef"><b>Definition</b> LoadCommand.hpp:36</div></div>
 <div class="ttc" id="aclass_load_command_handler_html_a19ccd3dc492b189a74beb03a543bb491"><div class="ttname"><a href="class_load_command_handler.html#a19ccd3dc492b189a74beb03a543bb491">LoadCommandHandler::getCommand</a></div><div class="ttdeci">virtual SessionCommand &amp; getCommand() const override</div><div class="ttdoc">Returns a reference to a static command instance.</div><div class="ttdef"><b>Definition</b> LoadCommand.hpp:40</div></div>
@@ -155,7 +153,7 @@ $(function(){initNavTree('_load_command_8hpp_source.html','',''); });
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="_load_command_8hpp.html">LoadCommand.hpp</a></li>
+    <li class="navelem"><b>LoadCommand.hpp</b></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>

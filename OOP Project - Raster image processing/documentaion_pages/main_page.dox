@@ -1,0 +1,111 @@
+/**
+ * @mainpage Raster Image Processing Console Editor
+ *
+ * @section intro Introduction
+ * This project is a console-based raster image editor built for the course "Object-Oriented Programming" at FMI, 2025.
+ * It supports multiple raster formats *(PBM, PGM, PPM, BMP)* and allows the user to perform transformations on images
+ * Via a command-line interface. It includes session tracking, undo/redo functionality, image adding manipulation and transformation.
+ *
+ * @section analysis Task Breakdown and Problem-Solving Approach
+ * The development was broken into several key stages:
+ * - Design of the core object model (images, files, sessions, commands).
+ * - Separation of console input parsing from core logic via a command handler mechanism.
+ * - Separating the file creation logic from the main image class.
+ * - Separating the command logic into: Session commands and Image commands.
+ * - Building a transformation system that supports chaining and undoing commands.
+ * - Separating the command execution proccess into three steps:
+ *		- Cloning images to ensure the original versions remain unchanged throughout the session.
+ *		- Loading transformation metadata into each image's context.
+ *		- Executing all recorded transformations based on the context.
+ *		
+ * @section challenges Challenges Encountered During Development
+ *
+ * During the development of this project, several non-trivial challenges arose, both architectural and algorithmic.
+ *
+ * @subsection transformation_logic Image Transformation and Transformation Identities
+ *
+ * One of the core challenges was designing a transformation system that could handle sequences of operations like
+ * rotation, flipping, and negation in a correct and efficient way. Many of these operations can cancel each other out
+ * or form geometric identities, for example:
+ * - Rotating an image four times (360 degrees) results in the original state.
+ * - Flipping an image twice horizontally or vertically does nothing visually.
+ * - Combining rotations and flips can result in mirrored rotations that need careful ordering.
+ *
+ * To address this, a *`Context`* class was introduced to track all pending transformations per image. Instead of
+ * executing them immediately, the system defers them and applies them in a specific order during final execution.
+ * **Rotations must always be performed before flips**, as applying them out of order can lead to incorrect output.
+ * This strict transformation sequencing ensures correctness regardless of the order in which the user invokes commands.
+ *
+ * @subsection command_storage Memory Optimization and Shared Command Instances
+ *
+ * Another architectural decision involved how command instances are stored and reused. Instead of cloning or snapshotting
+ * every command for each image, which would lead to significant memory overhead, the system keeps one **static instance**
+ * per command type. All commands are executed by iterating over images at runtime rather than storing them individually
+ * for each image.
+ *
+ * While this reduces memory usage significantly, it also introduced a new problem: **the loss of per-image command state**.
+ * To solve this, the transformation logic was decoupled from the commands themselves and moved into each image's `Context`.
+ * This preserved the separation of concerns, maintained low memory usage, and ensured that command execution remained stateless.
+ *
+ * @subsection file_format_quirks File Format Specific Issues
+ *
+ * Working with different image formats also brought implementation-specific issues. For example:
+ * - **BMP files** require padding each row to a multiple of 4 bytes.
+ * - **PNM formats** (P4 binary in particular) use bit-packed data and allow interspersed comments that had to be ignored.
+ * - Some formats don't explicitly state dimensions in a friendly format, requiring robust token parsing.
+ *
+ * These were resolved through custom file readers/writers and careful stream management that complies with the
+ * specifications of each format.
+ *
+ * @section architecture Chosen Architecture and Design Rationale
+ *
+ * The system is intentionally built around **modularity, extensibility, and testability**, using several core design patterns:
+ *
+ * - **Command Pattern**: All transformations (e.g., `grayscale`, `rotate`, `negative`) are modeled as commands
+ *   that can be executed, cloned, or undone. Each command encapsulates both metadata (`loadInfo`) and action (`execute`).
+ *
+ * - **Factory Pattern**: Used for both `File` and `Command` creation. The `FileFactory` and `CommandFactory`
+ *   are singletons that register format-specific and command-specific handlers, respectively.
+ *
+ * - **Chain of Responsibility**: Implemented through `CommandHandler`, allowing input parsing to be handled
+ *   flexibly without tightly coupling parsing logic to command logic. This also enables easy extension via new handlers.
+ *
+ * - **Session Model**: The `Session` class acts as the core coordinator, holding a list of images and a command history
+ *   (with undo/redo stacks). It isolates user interaction from internal state manipulation.
+ *
+ * - **Matrix Abstraction**: The `Matrix` class provides an abstract view over a 2D array of pixels with built-in
+ *   transformation methods such as `rotateLeft`, `rotateRight`, `flipHorizontal`, `paste`, and more. This ensures that
+ *   image-level operations are cleanly separated from command logic.
+ *
+ * - **Context Propagation**: The `Context` class holds all pending transformation states for an image before they are
+ *   applied. This enables deferred execution of operations and batch application of transformations.
+ *
+ * This architecture allows the system to:
+ * - Add new commands or formats without modifying existing code.
+ * - Decouple file reading/writing from business logic.
+ * - Track image state changes over time with minimal coupling.
+ * - Support undo/redo without overhead on individual commands.
+ *
+ * @section classes Overview of Core Classes
+ *
+ * - `Image` - Represents an individual raster image and its state, including its matrix and transformation context.
+ * - `Matrix` - Encapsulates the 2D grid of pixels and provides the core transformation algorithms.
+ * - `File` - Abstract base class for file format loaders and savers; extended by `BMP`, `PNM`, etc.
+ * - `FileManager` - Interface for identifying and creating the correct file handler.
+ * - `Session` - Manages the current editing session, list of images, and command history.
+ * - `Command` - Abstract interface for all commands (`execute`, `clone`, `parseArguments`, etc.).
+ * - `CommandHandler` - Responsible for parsing and returning command instances from user input.
+ * - `FileFactory` / `CommandFactory` - Singleton classes that register and instantiate handlers.
+ *
+ * @section improvements Ideas for Future Enhancements
+ *
+ * - Add support for more complex image formats (e.g., PNG, JPG).
+ * - Implement heavy transformations functionallity (e.g., large rotations).
+ * - Improve error handling with file-level and image-level diagnostics.
+ *
+ * @section tooling Documentation and Tooling
+ *
+ * This documentation is automatically generated using **Doxygen**, based on in-code comments.
+ * Class inheritance diagrams and call graphs are rendered using **Graphviz**.  
+ * The full class hierarchy can be found in the "Classes" section of this documentation.
+ */
